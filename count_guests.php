@@ -11,7 +11,7 @@
 
   // Calcul du nombre total d'invités
   $total = 0;
-  foreach ($guests as $guest) {
+  foreach ($guests as $nombre) {
     $total += $guest["nombre"];
   }
 
