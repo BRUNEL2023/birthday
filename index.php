@@ -33,6 +33,11 @@
         <input type="number" name="nombre" placeholder="Nombre de personnes">
         <input type="submit" value="Confirmer">
       </form>
+      <form method="post" action="register.php" >
+        <input type="text" name="Nom" placeholder="Votre Nom">
+        <input type="number" name="Nombre" placeholder="Nombre de personnes">
+        <input type="submit" value="S'inscrire">
+      </form>
     </section>
     <section>
       <h2>En savoir plus sur le thème</h2>
@@ -43,4 +48,5 @@
     </section>
   </main>
   <script src="script.js"></script>
+</body>
 </html>
