@@ -25,14 +25,6 @@
     </section>
     <section>
       <h2>Confirmation de présence</h2>
-      <p>
-        Pour confirmer votre présence, veuillez remplir le formulaire ci-dessous.
-      </p>
-      <form action="confirmation.php" method="post">
-        <input type="text" name="nom" placeholder="Votre nom">
-        <input type="number" name="nombre" placeholder="Nombre de personnes">
-        <input type="submit" value="Confirmer">
-      </form>
       <form method="post" action="register.php" >
         <input type="text" name="Nom" placeholder="Votre Nom">
         <input type="number" name="Nombre" placeholder="Nombre de personnes">
@@ -44,6 +36,7 @@
       <p id="explications">
         Le thème "Amour, paix et prospérité" est un thème universel qui peut être interprété de différentes manières. Il est utilisé ici pour célébrer l'amour, la paix et la prospérité dans le monde, ou pour créer une ambiance chaleureuse et conviviale pour une soirée d'anniversaire.
       </p>
+      <p>Total Guests: <?php include 'count_guests.php'; ?></p>
       <button id="btn-explications">En savoir plus</button>
     </section>
   </main>
